@@ -20,8 +20,8 @@ class Quizzer(object):
         # question_list = []
 
         # connect to the database
-        m269_database="./m269_database.db"
-        connection=sqlite3.connect(m269_database)
+        country_db="./country_database.db"
+        connection=sqlite3.connect(country_db)
         cursor=connection.cursor()
 
         # query the database and return all matching values
